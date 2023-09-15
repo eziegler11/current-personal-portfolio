@@ -43,7 +43,7 @@ const Contact = () => {
           <h5>erich.ziegler11@gmail.com</h5>
           <a href="mailto:erich.ziegler11@gmail.com" target='_blank' rel='noreferrer'>Send a message</a>
         </article>
-        <article className="contact__option">
+        {/* <article className="contact__option">
           <RiMessengerLine className='contact__option-icon' />
           <h4>Messenger</h4>
           <h5>erich.ziegler</h5>
@@ -54,7 +54,7 @@ const Contact = () => {
           <h4>WhatsApp</h4>
           <h5>+123456789</h5>
           <a href="https://api.whatsapp.com/send?phone=+123456789" target='_blank' rel='noreferrer'>Send a message</a>
-        </article>
+        </article> */}
       </div>
       {/* END OF CONTACT OPTIONS */}
       <form ref={form} onSubmit={sendEmail}>
