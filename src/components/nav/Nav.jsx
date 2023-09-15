@@ -1,17 +1,13 @@
-import './nav.css'
-import { AiOutlineHome } from 'react-icons/ai'
-import { AiOutlineUser } from 'react-icons/ai'
-import { BiBook } from 'react-icons/bi'
-import { PiBriefcaseMetalDuotone } from 'react-icons/pi';
-import { RiServiceLine } from 'react-icons/ri'
-import { BsPersonHearts } from 'react-icons/bs'
-import { BiMessageAltDetail } from 'react-icons/bi';
 import { useState } from 'react';
+import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+import { BiBook, BiMessageAltDetail } from 'react-icons/bi';
+import { PiBriefcaseMetalDuotone } from 'react-icons/pi';
+import './nav.css';
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+	const [activeNav, setActiveNav] = useState('#');
 
-  return (
+	return (
 		<nav>
 			<a
 				href='#'
@@ -42,20 +38,6 @@ const Nav = () => {
 				<PiBriefcaseMetalDuotone />
 			</a>
 			<a
-				href='#services'
-				onClick={() => setActiveNav('#services')}
-				className={activeNav === '#services' ? 'active' : ''}
-			>
-				<RiServiceLine />
-			</a>
-			<a
-				href='#testimonials'
-				onClick={() => setActiveNav('#testimonials')}
-				className={activeNav === '#testimonials' ? 'active' : ''}
-			>
-				<BsPersonHearts />
-			</a>
-			<a
 				href='#contact'
 				onClick={() => setActiveNav('#contact')}
 				className={activeNav === '#contact' ? 'active' : ''}
@@ -64,5 +46,5 @@ const Nav = () => {
 			</a>
 		</nav>
 	);
-}
-export default Nav
+};
+export default Nav;

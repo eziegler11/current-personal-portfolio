@@ -1,5 +1,5 @@
-import IMG2 from '../../assets/portfolio2.jpg';
-import IMG3 from '../../assets/portfolio3.jpg';
+import IMG2 from '../../assets/birders.png';
+import IMG3 from '../../assets/e-commerce.png';
 import IMG1 from '../../assets/shoptillyoudrop.png';
 import './portfolio.css';
 
@@ -14,16 +14,16 @@ const data = [
 	{
 		id: 2,
 		image: IMG2,
-		title: 'This is a portfolio item title',
-		github: 'https://github.com',
-		demo: 'https://github.com',
+		title: 'Birders Anonymous // JavaScript + API',
+		github: 'https://github.com/eziegler11/birders-anonymous',
+		demo: 'https://nlewis742.github.io/birders-anonymous/',
 	},
 	{
 		id: 3,
 		image: IMG3,
-		title: 'This is a portfolio item title',
-		github: 'https://github.com',
-		demo: 'https://github.com',
+		title: 'E-Commerce Backend CLI // Node.js + MySQL',
+		github: 'https://github.com/eziegler11/back-end-ecommerce-CL-app',
+		demo: 'https://drive.google.com/file/d/1cB0k1g5tyx9t_OlUcjqOYn0HVXdmYCdt/view',
 	},
 ];
 
