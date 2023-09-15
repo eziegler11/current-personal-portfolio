@@ -1,6 +1,7 @@
 import IMG2 from '../../assets/birders.png';
 import IMG3 from '../../assets/e-commerce.png';
 import IMG1 from '../../assets/shoptillyoudrop.png';
+import IMG4 from '../../assets/employee.png';
 import './portfolio.css';
 
 const data = [
@@ -24,6 +25,13 @@ const data = [
 		title: 'E-Commerce Backend CLI // Node.js + MySQL',
 		github: 'https://github.com/eziegler11/back-end-ecommerce-CL-app',
 		demo: 'https://drive.google.com/file/d/1cB0k1g5tyx9t_OlUcjqOYn0HVXdmYCdt/view',
+	},
+	{
+		id: 4,
+		image: IMG4,
+		title: 'Employee Database // Node.js + MySQL',
+		github: 'https://github.com/eziegler11/employee-database-tracker',
+		demo: 'https://drive.google.com/file/d/1LwpK3Sfv1GN_VAtm6_8U5egM6DkrSfC5/view',
 	},
 ];
 
